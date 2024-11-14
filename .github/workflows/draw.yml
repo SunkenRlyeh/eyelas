@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "config/**"
+      - "boards/arm/eyelash_corne/**"
       - .github/workflows/draw.yml
       - keymap_drawer.config.yaml
 
@@ -13,6 +13,8 @@ jobs:
     permissions:
       contents: write
     with:
-      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      amend_commit: true
       destination: "commit"
       fail_on_error: ${{ fromJSON(true) }}
+      json_path: "boards/arm/eyelash_corne"
+      keymap_patterns: "boards/arm/eyelash_corne/*.keymap"
