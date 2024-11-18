@@ -1,6 +1,17 @@
-if you  need the 3D modle of this  keyboard，you can  connect me by Email。380465425@qq.com
-# 睫毛外设店 (Eyelash Peripherals) Corne
+# 睫毛外设店 (Eyelash Peripherals) Corne ZMK Repository
 
+![Photo of Eyelash Peripherals Corne](https://ae01.alicdn.com/kf/Sa797fee25edd44248fbfdb0e13d44e00B.jpg)
+
+If you need a 3D model of this keyboard, email `380465425@qq.com`.
+
+## Quick Start
+
+1. [Sign up for a GitHub account](https://github.com/signup) and [fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
+2. [Click the **Actions** tab and make sure the workflow is enabled](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/disabling-and-enabling-a-workflow#enabling-a-workflow).
+3. Make sure the `eyelash_corne` project in [`config/west.yml`](config/west.yml) still points to a valid URL.
+4. If there is still a `boards/arm/eyelash_corne` folder in your fork, delete it. You want the keyboard definition to be re-downloaded from the URL in `config/west.yml`.
+
+**This keyboard is not the same as [the Corne created by foostan](https://github.com/foostan/crkbd). It will not work with the `corne` firmware maintained by [ZMK](https://github.com/zmkfirmware/zmk).**
 
 ## Keymap Diagram
 
