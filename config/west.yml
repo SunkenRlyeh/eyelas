@@ -9,8 +9,8 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
   projects:
-    - name: eyelash_corne
-      url: https://github.com/a741725193/zmk-new_corne
+    - name: eyelash-corne-module
+      url: https://github.com/lesshonor/eyelash-corne-module
       revision: main
     - name: zmk
       remote: petejohanson
