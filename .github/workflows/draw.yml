@@ -14,7 +14,7 @@ jobs:
       contents: write
     with:
       amend_commit: true
-      destination: "commit"
+      destination: commit
+      draw_args: "eyelash_corne:'-d boards/arm/eyelash_corne/eyelash_corne-layouts.dtsi -l corne_layout' eyelash_sofle:'-d boards/arm/eyelash_corne/eyelash_corne-layouts.dtsi -l sofle_layout'"
       fail_on_error: ${{ fromJSON(true) }}
-      json_path: "boards/arm/eyelash_corne"
       keymap_patterns: "boards/arm/eyelash_corne/*.keymap"
